@@ -1,0 +1,109 @@
+/* + основной цвет текста  #212121 */
+/* цвет текста при выделении (фокус,ховер) #2196F3 */
+/* + вторичный цвет текста (+ цвет не активной ссылки) #757575 */
+/* цвета Логотипа #000000 и #2196F3 */
+/* цвет текста главного девиза компании, кнопка под девизом, адрес в футуре #FFFFFF */
+
+/* основной bg #FFFFFF */
+/* вторичный bg (в девизе компании и футуре) #2F303A  */
+/* bg секции команда, не активных секций портфолио #F5F4FA */
+
+:root {
+    --primary-text-color: #212121;
+    --second-text-color: #757575;
+    --hover-focus-text: #2196F3;
+    --last-color-text-and: #FFFFFF;
+    --primary-bg: #FFFFFF;
+    --second-bg: #2F303A;
+    --three-gb: #F5F4FA;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg);
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER */
+.logo {
+    color: var(--primary-text-color);
+}
+
+.logo .logo-web {
+    color: var(--hover-focus-text);
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--hover-focus-text);
+}
+
+.mail,
+.tell {
+    color: var(--second-text-color);
+}
+
+.mail:hover,
+.tell:hover {   
+    color:  var(--hover-focus-text);
+}
+
+/* ДЕВІЗ КОМПАНІЇ */
+.motto {
+    background-color: var(--second-bg);
+}
+
+.motto-title {
+    color: var(--last-color-text-and);
+}
+
+.motto-button {
+    color: var(--last-color-text-and);
+    background-color: var(--hover-focus-text);
+}
+
+/* Переваги (advantages) */
+.adv-text {
+    color: var(--second-text-color);
+}
+
+/* Наша робота */
+
+
+
+/* Команда */
+.comand {
+    background-color: var(--three-gb);
+}
+
+.comand-profession {
+    color: var(--second-text-color);
+}
+
+
+/* Footer */
+.basement {
+    background-color: var(--second-bg);
+}
+
+.basement .footer-white {
+    color: var(--last-color-text-and);
+}
+
+.city-address {
+    color: var(--last-color-text-and);
+}
+
+.post-address .mail{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.post-address .tell{
+    color: rgba(255, 255, 255, 0.6);
+}
