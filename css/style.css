@@ -82,7 +82,8 @@ ul {
     background-color: var(--three-gb);
 }
 
-.comand-profession {
+.comand-profession,
+.work-link {
     color: var(--second-text-color);
 }
 
